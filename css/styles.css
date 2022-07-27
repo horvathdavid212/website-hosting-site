@@ -71,7 +71,7 @@ a{
 }
 
 .link-arrow::after{
-    content: "->";
+    content: url(../images/orange_arrow.png);
     margin-left: 5px;
     transition: margin 0.15s;
 }
@@ -116,4 +116,20 @@ a{
     .badge--small{
         font-size: 1.2rem;
     }
+}
+
+.list{
+    list-style: none;
+    padding-left: 0;
+    color:var(--color-hedings)
+}
+
+.list--inline .list__item{
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.list--tick{
+    list-style-image: url(../images/tick.svg);
+    padding-left: 3rem;
 }
