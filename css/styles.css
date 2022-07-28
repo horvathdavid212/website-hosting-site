@@ -4,6 +4,8 @@
     --color-accent: orange;
     --color-hedings: #22196d;
     --color-body: #524a97;
+    --color-border: #ccc;
+    --border-radius: 40px;
 }
 
 *,*::after,*::before{
@@ -165,7 +167,7 @@ a{
     text-transform: uppercase;
     padding: 2rem 3rem;
     border: 0;
-    border-radius: 40px;
+    border-radius: var(--border-radius);
     cursor: pointer;
     white-space: nowrap;
     text-align: center;
@@ -223,8 +225,8 @@ a{
 /* Inputs */
 .input{
     padding: 1.5rem 3.5rem;
-    border: 1px solid #ccc;
-    border-radius: 40px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
     outline: 0;
     color:var(--color-hedings);
     font-size: 2rem;
@@ -232,6 +234,22 @@ a{
 
 ::placeholder{
     color: gray;
+}
+
+.input-group{
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    display: flex;
+}
+
+.input-group .input{
+    border: 0;
+    flex-grow: 1;
+    padding: 1.5rem 1rem
+}
+
+.input-group .btn{
+    margin: 4px;
 }
 
 @media screen and (min-width: 1024px){
