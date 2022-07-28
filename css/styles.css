@@ -219,3 +219,38 @@ a{
     background:var(--color-hedings);
     color: white;
 }
+
+/* Inputs */
+.input{
+    padding: 1.5rem 3.5rem;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    outline: 0;
+    color:var(--color-hedings);
+    font-size: 2rem;
+}
+
+::placeholder{
+    color: gray;
+}
+
+@media screen and (min-width: 1024px){
+    .input{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
