@@ -1,1 +1,1 @@
-A plain website hosting site only with HTML and CSS
+A plain, website hosting site mainly using HTML and CSS + little bit of JavaScript.
