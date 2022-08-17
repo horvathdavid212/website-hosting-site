@@ -191,7 +191,7 @@ a{
     font-size: 1.8rem;
     font-weight: 600;
     text-transform: uppercase;
-    padding: 2rem 3rem;
+    padding: 2rem 4vw;
     border: 0;
     border-radius: var(--border-radius);
     cursor: pointer;
@@ -285,6 +285,7 @@ a{
     border: 0;
     flex-grow: 1;
     padding: 1.5rem 2rem;
+    width: 0;
 }
 
 .input-group .btn{
@@ -715,19 +716,20 @@ a{
 .block-domain .input-group{
     box-shadow: 0 0 30px 20px #c0c0be;
     border: 0;
-    margin: 4rem 0;
+    margin: 4rem auto;
     max-width: 670px;
 }
 
 .block-domain__prices{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,6rem);
     font-size: 2rem;
     font-weight: 600;
     justify-items: center;
     max-width: 700px;
     margin: 0 auto;
+    color: var(--color-hedings);
 }
 
 @media screen and (min-width: 768px){
